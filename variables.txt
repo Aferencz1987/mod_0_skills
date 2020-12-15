@@ -1,0 +1,13 @@
+If this was terminal
+irb
+food = 'rice'
+is_delicious == true
+food = String.new
+num2 = 20
+num7 = 40
+num7/num2 = x
+x = 'quotient'
+songs = [wannabe, tubthumping, wonderwall]
+songs.drop (1)
+'food'.size
+exit
