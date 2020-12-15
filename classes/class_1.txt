@@ -1,0 +1,14 @@
+Class: Wine
+
+Attributes:
+type (string)
+container (string)
+unopened (boolean)
+size (integer)
+
+Methods:
+
+change_type (modifies type)
+open_container (modifies unopened to false)
+close_container (modifies unopened to true if open is true)
+pour_wine (modifies size, container)
