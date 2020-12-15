@@ -1,0 +1,16 @@
+Class: HostessChair
+
+Attributes:
+
+padded = false
+material = ('steel', 'wood')
+wobbles = true
+color = 'red'
+
+
+Methods:
+
+change_color: color = 'blue'
+level_chair: wobble = false
+place_cover_on_chair: material = ('steel', 'wood', 'polyester')
+add_pillow: padded = true 
