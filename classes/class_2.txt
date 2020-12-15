@@ -1,0 +1,16 @@
+Class: chair
+
+Attributes:
+
+padded (boolean)
+material (array)
+wobbles (boolean)
+color (string)
+
+
+Methods:
+
+change_color (modifies color)
+level_chair (modifies wobble)
+place_cover_on_chair (modifies material)
+add_pillow (modifies padded = true)
