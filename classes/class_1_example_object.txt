@@ -4,18 +4,18 @@ Attributes:
 type 'pinot grigio'
 container 'class bottle'
 unopened = true
-size 25oz
+size 25
 
 Methods:
 
-change_type: becomes 'merlot'
+change_type: type = 'merlot'
 open_container: unopened = false
 close_container: unopened = true
-pour_wine: size becomes 20oz
+pour_wine: size becomes 20
 
 Alex's Note:
 If the order is important to the methodology it should go:
 
 change_type: close_container might throw up an error code because the bottle is sitting at unopened = true
 open_container: unopened = false
-pour_wine: size becomes 20oz
+pour_wine: size becomes 20
